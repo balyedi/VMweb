@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--link rel="preload" as="font" href="font.css" rel="stylesheet" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css"-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VMweb</title>
+	<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body style="font-family: IBMVGA8;">
+	<a href="..">Go back</a>
+	<div></div>
+	<div style="background-color: rgb(7, 7, 7)" id="screen">
+		<!--canvas width="500" height="500" id="canvasScreen">
+			<h1>Your Browser Doesn't support Canvas</h1>
+			<h2>You can't use the Emulator</h2>
+		</canvas-->
+	</div>
+	<img alt="" id="hddshow" src="" />
+	<p>Change Memory</p>
+	<input placeholder="Level" id="memLvl">
+	<input placeholder="Value" id="memVal">
+	<button onclick="changeMem()">Change</button>
+	<p id="mem"></p>
+	<p>Open the Console for the debugging etc. things</p>
+	<button onclick="flushMem()">Flush Memory</button>
+	<br>
+	<!--p>Fill up memory</p>
+	<input id="memValFill" placeholder="Fill with this">
+	<button onclick="fillMem()">Fill</button>
+	<div>
+		<canvas id="memPaste"></canvas>
+		<button onclick="printMEm">Print Memory</button>
+	</div-->
+	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script-->
+	<script src="main.js"></script>
+  <script src="build/vmweb.js"></script>
+</body>
+</html>
