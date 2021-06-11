@@ -14,7 +14,7 @@ const screensize = {
 	"width":600,
 	"height":600
 }
-var codesrc = "../web/Hello World" // Code source for run
+var codesrc = "../bin/Hello World" // Code source for run
 // Defining the registers
 let registers = new Array()
 registers["ax"] = {"high":0,"low":0}
