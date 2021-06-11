@@ -25,12 +25,12 @@ registers["bx"] = {"high":0,"low":0}
 printlog("%cVMweb","font-size: 23px;color: yellow") // Logo to console
 printlog(memory) // Memory to console
 printlog(registers) // Registers to console
-/*bios = new Array();
-var xhr = new XMLHttpRequest();
+bios = new Array();
+/*var xhr = new XMLHttpRequest();
 xhr.open("GET", biospath, false);
 xhr.overrideMimeType("application/x-binary; charset=ISO-8859-1");
-xhr.send();
-bios.bios = ""*/
+xhr.send();*/
+bios.bios = ""
 /*var memcanvas = document.getElementById("memPaste")
 var memctx = memcanvas.getContext("2d")*/
 var changeMem = function() {
