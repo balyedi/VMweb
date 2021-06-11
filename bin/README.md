@@ -1,1 +1,1 @@
-Example binaries
+Binaries
