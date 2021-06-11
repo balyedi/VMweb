@@ -1,5 +1,5 @@
-const biospath = "../web/bios"
-const programpath = "../web/Hello%20World"
+const biospath = "../bin/bios"
+const programpath = "../bin/Hello%20World"
 function IsNumeric(val) { return Number(val)==val; }
 function printnotice(text) {
 	console.log(`%c${text}`,"color: #21dbb9")
